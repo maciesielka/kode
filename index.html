@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
+    <!--<meta name="viewport" content="initial-scale=1"/>-->
     <title>Kode</title>
+    <link rel="icon" type="image/ico" href="favicon.ico"/>
     <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
@@ -18,7 +20,25 @@
                 <div class="vert-spacer-custom"></div> <!-- invisible element to help vertically center -->
                 <div id="jointhekode"><button><a href="#contact">Get Invited</a></button><div id="freekodes">and receive five free Kodes.</div></div>
             </div>
-            <div id="seemore"><a href="#contact"><img id="chevron" src="img/icons/chevron.svg" alt="See more..."></a></div>
+            <div id="seesticker" class="seemore"><a href="#information-sticker"><img class="chevron" src="img/icons/chevron.svg" alt="See more..."></a></div>
+        </section>
+    </section>
+    <section id="information-sticker" class="page information">
+        <section>
+            <h2>How It Works</h2>
+            <div id="seephone" class="seemore"><a href="#information-phone"><img class="chevron" src="img/icons/chevron_black.svg" alt="See more..."></a></div>
+        </section>
+    </section>
+    <section id="information-phone" class="page information">
+        <section>
+            <h2>How It Works</h2>
+            <div id="seecomputer" class="seemore"><a href="#information-computer"><img class="chevron" src="img/icons/chevron_black.svg" alt="See more..."></a></div>
+        </section>
+    </section>
+    <section id="information-computer" class="page information">
+        <section>
+            <h2>How It Works</h2>
+            <div id="seecontact" class="seemore"><a href="#contact"><img class="chevron" src="img/icons/chevron_black.svg" alt="See more..."></a></div>
         </section>
     </section>
     <section id="contact" class="page">
@@ -67,18 +87,30 @@
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script>
-        var links = $('#jointhekode>button, #jointhekode>button>a, #seemore>a');
-        var scrollTo = $('#contact');
+        var linkToSticker = $('#seesticker>a'),
+            linkToPhone = $('#seephone>a'),
+            linkToComputer = $('#seecomputer>a'),
+            linkToContact = $('#jointhekode>button, #seecontact>a');
 
-        links.click(function(event) {
-            event.preventDefault();
+        var scrollToSticker = $('#information-sticker'),
+            scrollToPhone = $('#information-phone'),
+            scrollToComputer = $('#information-computer'),
+            scrollToContact = $('#contact');
 
-            $('html, body').animate({
-                scrollTop: scrollTo.offset().top
-            }, 1000);
+        function scrollTo(link, target) {
+            link.click(function(e) {
+                e.preventDefault();
 
-            return false;
-        });
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 800);
+            });
+        }
+
+        scrollTo(linkToSticker, scrollToSticker);
+        scrollTo(linkToPhone, scrollToPhone);
+        scrollTo(linkToComputer, scrollToComputer);
+        scrollTo(linkToContact, scrollToContact);
     </script>
 </body>
 </html>

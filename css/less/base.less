@@ -121,7 +121,23 @@ h1, h2, p {
   position: absolute;
 
 }
-#seemore {
+
+/* Information */
+/* ............................................................................................. */
+.information {
+  background: white; color: black;
+  text-align: center;
+  border-bottom: 1px solid #EEE;
+}
+.information>section>h2 {
+  margin-left: -3px;
+  top: 88px;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 42px;
+}
+.seemore {
   width: 100%; height: 100px;
   margin: 0 auto;
   bottom: 0;
@@ -130,12 +146,12 @@ h1, h2, p {
   text-align: center;
   line-height: 100px;
 }
-#seemore>a {
+.seemore>a {
   height: 20px;
   display: inline-block;
   vertical-align: middle;
 }
-#chevron {
+.chevron {
   width: 32px;
   display: block;
   opacity: 0.75;
@@ -144,6 +160,7 @@ h1, h2, p {
 /* Contact */
 /* ............................................................................................. */
 #contact {
+  height: 880px !important;
   background: @theme-1; color: white;
   text-align: center;
 }
@@ -212,7 +229,6 @@ div.mce_inline_error {
 }
 #contact footer>* {
   display: inline-block;
-  vertical-align: middle;
 }
 #copyright {
   margin-left: @footer-margins;
@@ -228,7 +244,7 @@ div.mce_inline_error {
 .sm img {
   width: 100%; height: 100%;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
 }
 #facebook {
   margin-right: 10px;

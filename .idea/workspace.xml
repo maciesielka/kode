@@ -2,9 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="153f94a4-2c0e-4040-9456-f3d5f0fed34c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/kode_user.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/phone.png" afterPath="$PROJECT_DIR$/img/phone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/splash.png" afterPath="$PROJECT_DIR$/img/splash.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/041 Gotham [2000 - Tobias Frere-Jones] -OTF/Gotham-Black.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/041 Gotham [2000 - Tobias Frere-Jones] -OTF/Gotham-BlackItalic.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/041 Gotham [2000 - Tobias Frere-Jones] -OTF/Gotham-Bold.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/041 Gotham [2000 - Tobias Frere-Jones] -OTF/Gotham-BoldItalic.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/041 Gotham [2000 - Tobias Frere-Jones] -OTF/Gotham-Book.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/041 Gotham [2000 - Tobias Frere-Jones] -OTF/Gotham-BookItalic.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/041 Gotham [2000 - Tobias Frere-Jones] -OTF/Gotham-Light.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/041 Gotham [2000 - Tobias Frere-Jones] -OTF/Gotham-LightItalic.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/041 Gotham [2000 - Tobias Frere-Jones] -OTF/Gotham-Medium.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/041 Gotham [2000 - Tobias Frere-Jones] -OTF/Gotham-MediumItalic.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/041 Gotham [2000 - Tobias Frere-Jones] -OTF/Gotham-Thin.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/041 Gotham [2000 - Tobias Frere-Jones] -OTF/Gotham-ThinItalic.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/041 Gotham [2000 - Tobias Frere-Jones] -OTF/Gotham-Ultra.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/041 Gotham [2000 - Tobias Frere-Jones] -OTF/Gotham-UltraItalic.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/041 Gotham [2000 - Tobias Frere-Jones] -OTF/Gotham-XLight.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/041 Gotham [2000 - Tobias Frere-Jones] -OTF/Gotham-XLightItalic.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/041 Gotham [2000 - Tobias Frere-Jones] -OTF/GothamRnd-Bold.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/041 Gotham [2000 - Tobias Frere-Jones] -OTF/GothamRnd-BoldIta.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/041 Gotham [2000 - Tobias Frere-Jones] -OTF/GothamRnd-Book.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/041 Gotham [2000 - Tobias Frere-Jones] -OTF/GothamRnd-BookIta.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/041 Gotham [2000 - Tobias Frere-Jones] -OTF/GothamRnd-Light.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/041 Gotham [2000 - Tobias Frere-Jones] -OTF/GothamRnd-LightIta.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/041 Gotham [2000 - Tobias Frere-Jones] -OTF/GothamRnd-MedIta.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/041 Gotham [2000 - Tobias Frere-Jones] -OTF/GothamRnd-Medium.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/5 2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Avenir/AvenirNextLTPro-Bold.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Avenir/AvenirNextLTPro-BoldCn.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Avenir/AvenirNextLTPro-BoldCnIt.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Avenir/AvenirNextLTPro-Cn.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Avenir/AvenirNextLTPro-CnIt.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Avenir/AvenirNextLTPro-Demi.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Avenir/AvenirNextLTPro-DemiCn.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Avenir/AvenirNextLTPro-DemiCnIt.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Avenir/AvenirNextLTPro-DemiIt.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Avenir/AvenirNextLTPro-HeavyCn.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Avenir/AvenirNextLTPro-HeavyCnIt.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Avenir/AvenirNextLTPro-It.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Avenir/AvenirNextLTPro-MediumCn.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Avenir/AvenirNextLTPro-MediumCnIt.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Avenir/AvenirNextLTPro-Regular.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Avenir/AvenirNextLTPro-UltLtCn.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Avenir/AvenirNextLTPro-UltLtCnIt.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Down Arrow_2-01.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/K-01.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Kode-49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Proxima Nova/ProximaNova-Black.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Proxima Nova/ProximaNova-Bold.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Proxima Nova/ProximaNova-BoldIt.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Proxima Nova/ProximaNova-Extrabld.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Proxima Nova/ProximaNova-Light.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Proxima Nova/ProximaNova-LightIt.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Proxima Nova/ProximaNova-Regular.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Proxima Nova/ProximaNova-RegularIt.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Proxima Nova/ProximaNova-Semibold.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Proxima Nova/ProximaNova-SemiboldIt.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Screen Shot 2014-07-19 at 3.43.00 PM.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/bg2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/downarrow.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/favicon_v.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/logo-01-01.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/social_V copy.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/social_V.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phone.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/base.less" afterPath="$PROJECT_DIR$/css/less/base.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
@@ -31,23 +92,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="24" selection-start="712" selection-end="820" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="1350">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#3;n#form#0;n#div#0;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#3;n#form#0;n#div#0;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#form#0;n#div#0;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="88" column="12" selection-start="5229" selection-end="5229" vertical-scroll-proportion="1.7483444" vertical-offset="0" max-vertical-offset="1830">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.less" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="base.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/less/base.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="24" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.41468683" vertical-offset="585" max-vertical-offset="5236">
+            <state line="129" column="31" selection-start="3223" selection-end="3223" vertical-scroll-proportion="-2.5" vertical-offset="1875" max-vertical-offset="4860">
               <folding />
             </state>
           </provider>
@@ -66,8 +123,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/less/base.less" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -102,7 +159,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -201,6 +257,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,14 +303,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959184" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1632653" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959184" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25274727" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25579977" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -262,10 +320,9 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -283,9 +340,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959184" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959184" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -307,12 +364,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="24" selection-start="712" selection-end="820" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1350">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/less/base.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="24" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="4620">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="66" selection-start="3788" selection-end="3788" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1290">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#3;n#form#0;n#div#0;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#form#0;n#div#0;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#form#0;n#div#0;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -333,30 +400,16 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/downarrow.svg">
+    <entry file="file://$PROJECT_DIR$/css/less/base.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Down Arrow_2-01.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952" />
+        <state line="129" column="31" selection-start="3223" selection-end="3223" vertical-scroll-proportion="-2.5" vertical-offset="1875" max-vertical-offset="4860">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="24" selection-start="712" selection-end="820" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="1350">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#3;n#form#0;n#div#0;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#form#0;n#div#0;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#form#0;n#div#0;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/less/base.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="24" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.41468683" vertical-offset="585" max-vertical-offset="5236">
+        <state line="88" column="12" selection-start="5229" selection-end="5229" vertical-scroll-proportion="1.7483444" vertical-offset="0" max-vertical-offset="1830">
           <folding />
         </state>
       </provider>
