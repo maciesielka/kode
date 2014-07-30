@@ -1,8 +1,26 @@
 /* Fonts */
 /* ............................................................................................. */
 @font-face {
+  font-family: 'Gotham Thin';
+  src: url('fonts/Gotham/Gotham-Thin.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: 'Gotham Light';
   src: url('fonts/Gotham/Gotham-Light.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('fonts/Gotham/Gotham-Medium.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Avenir';
+  src: url('fonts/Avenir/AvenirNextLTPro-Regular.otf');
   font-weight: normal;
   font-style: normal;
 }
@@ -27,11 +45,11 @@
 html, body {
   width: 100%; height: 100%;
   margin: 0; padding: 0;
-  font-family: 'GothamThin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Gotham Thin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .page {
   width: 100%; height: 100%;
-  min-height: 660px;
+  min-height: 720px; min-width: 1024px;
   margin: 0; padding: 0;
   top: 0; right: 0; bottom: 0; left: 0;
   position: relative;
@@ -128,14 +146,86 @@ h1, h2, p {
   background: white; color: black;
   text-align: center;
   border-bottom: 1px solid #EEE;
+  clear: both;
+}
+.information>section {
+  clear: both;
 }
 .information>section>h2 {
-  margin-left: -3px;
-  top: 88px;
-  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  top: 84px;
+  position: absolute;
   text-transform: uppercase;
   letter-spacing: 6px;
   font-size: 42px;
+}
+.information-left {
+  width: 50%; height: 100%;
+  display: block;
+  position: relative;
+  float: left;
+}
+.information-right {
+  width: 50%; height: 100%;
+  display: block;
+  position: relative;
+  float: right;
+}
+.container-image {
+  width: 100%; height: 100%;
+  bottom: 0;
+  position: relative;
+}
+#image-sticker {
+  height: 300px;
+  margin-top: -130px; // 20px extra offset
+}
+#image-phone {
+  height: 75%;
+  right: 128px; bottom: 0;
+  position: absolute;
+}
+#image-computer {
+  height: 300px;
+  margin-top: -130px; // 20px extra offset
+}
+.blurb {
+  width: 490px !important;
+  padding: 0 10px;
+  display: block;
+  vertical-align: middle;
+  text-align: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.blurb>h3, .blurb>p {
+  margin: 0 0 22px 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.blurb>h3 {
+  font-size: 34px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: @theme-2;
+}
+.blurb>p {
+  font-size: 24px;
+  line-height: 42px;
+}
+#blurb-sticker {
+  height: 240px;
+  margin: -100px auto 0 auto; // 20px extra offset
+}
+#blurb-phone {
+  height: 430px;
+  margin: -165px auto 0 auto; // 20px+30px extra offset
+}
+#blurb-computer {
+  height: 190px;
+  margin: -75px auto 0 auto; // 20px extra offset
 }
 .seemore {
   width: 100%; height: 100px;
