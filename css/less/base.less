@@ -96,7 +96,7 @@ h1, h2, p {
   display: inline-block; padding: 0 @splash-margin-left;
   position: relative;
   text-align: justify;
-  font-size: 82px;
+  font-size: 76px;
   letter-spacing: 0;
   line-height: 110px;
 }
@@ -165,12 +165,14 @@ h1, h2, p {
   display: block;
   position: relative;
   float: left;
+  overflow: hidden;
 }
 .information-right {
   width: 50%; height: 100%;
   display: block;
   position: relative;
   float: right;
+  overflow: hidden;
 }
 .container-image {
   width: 100%; height: 100%;
@@ -187,8 +189,8 @@ h1, h2, p {
   position: absolute;
 }
 #image-computer {
-  height: 300px;
-  margin-top: -130px; // 20px extra offset
+  height: 400px;
+  margin-top: -180px; // 20px extra offset
 }
 .blurb {
   width: 490px !important;
@@ -246,6 +248,9 @@ h1, h2, p {
   display: block;
   opacity: 0.75;
 }
+.fullopacity {
+  opacity: 1;
+}
 
 /* Contact */
 /* ............................................................................................. */
@@ -265,7 +270,7 @@ h1, h2, p {
 #contact>section>h2 {
   padding-left: 6px; /* letter-spacing fix */
   text-transform: uppercase;
-  font-family: 'GothamThin'; font-size: 32px; font-weight: 500;
+  font-family: 'Gotham Thin'; font-size: 32px; font-weight: 500;
   letter-spacing: 6px;
 }
 #contact>section>img {
@@ -345,64 +350,42 @@ div.mce_inline_error {
 
 /* Media Queries */
 /* ......................................................................... */
-//@media only screen and (max-width: 1440px) {
-//  #tagline {
-//    margin-top: -74px;
-//    font-size: 48px;
-//    line-height: 74px;
-//  }
-//  #kode-user {
-//    right: 6%;
-//  }
-//}
-//@media only screen and (max-width: 1280px) {
-//  #logo {
-//    width: 180px;
-//  }
-//  #tagline {
-//    margin-top: -66px; margin-left: 108px;
-//    font-size: 38px;
-//    line-height: 66px;
-//  }
-//  #kode-user {
-//    height: 520px;
-//    margin-top: -260px;
-//  }
-//  #jointhekode {
-//    margin-left: 108px;
-//  }
-//}
-//@media only screen and (max-width: 1024px) {
-//  #tagline {
-//    margin-top: -58px; margin-left: 108px;
-//    font-size: 32px;
-//    line-height: 58px;
-//  }
-//}
-//@media only screen and (max-width: 960px) {
-//  body {
-//    min-width: 768px;
-//  }
-//  #tagline {
-//    margin-top: -44px;
-//    margin-left: @splash-margin-left;
-//    font-size: 26px;
-//    line-height: 44px ;
-//  }
-//  #kode-user {
-//    height: 460px;
-//    margin-top: -230px;
-//  }
-//  #jointhekode {
-//    margin-left: @splash-margin-left;
-//  }
-//}
-//@media only screen and (max-width: 768px) {
-//
-//}
-//@media only screen and (max-width: 640px) {
-//
-//}
-//@media only screen and (max-width: 480px) {
-//
-//}
+@media only screen and (max-width: 1440px) {
+  #tagline {
+    font-size: 66px;
+    line-height: 98px;
+  }
+  #jointhekode>button, #freekodes {
+    font-size: 22px !important;
+  }
+  .vert-spacer-custom {
+    height: 3%;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  #tagline {
+    font-size: 48px;
+    line-height: 84px;
+  }
+  #jointhekode>button, #freekodes {
+    font-size: 18px !important;
+  }
+  .vert-spacer-custom {
+    height: 4%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+
+}
+@media only screen and (max-width: 960px) {
+
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 640px) {
+
+}
+@media only screen and (max-width: 480px) {
+
+}
