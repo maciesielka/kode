@@ -1,0 +1,414 @@
+@import (once) "reset.less";
+
+/* Fonts */
+/* ............................................................................................. */
+@font-face {
+  font-family: 'Gotham Thin';
+  src: url('../font/Gotham/Gotham-Thin.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham Light';
+  src: url('../font/Gotham/Gotham-Light.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('../font/Gotham/Gotham-Medium.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Avenir';
+  src: url('../font/Avenir/AvenirNextLTPro-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Variables */
+/* ............................................................................................. */
+@theme-1:                              #1A1E23;
+@theme-2:                              #2AE58B;
+@theme-3:                              #979797;
+@theme-4:                              #8E000E;
+
+@splash-margin-top:                    54px;
+@splash-margin-left:                   70px;
+@splash-margin-left-indent:            124px;
+@splash-margin-right:                  10%;
+
+@footer-margins:                       30px;
+@sm-hw:                                42px;
+
+/* General */
+/* ............................................................................................. */
+html, body {
+  width: 100%; height: 100%;
+  margin: 0; padding: 0;
+  font-family: 'Gotham Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.page {
+  width: 100%; height: 100%;
+  min-height: 720px; min-width: 1024px;
+  margin: 0; padding: 0;
+  top: 0; right: 0; bottom: 0; left: 0;
+  position: relative;
+}
+.page>section {
+  width: 100%; height: 100%;
+  text-align: center;
+}
+/* Resets */
+h1, h2, p {
+  margin: 0;
+}
+/* Classes */
+.nodisplay {
+  display: none;
+}
+.vert-spacer {
+  width: 100%; height: 50%;
+}
+.vert-spacer-fourth {
+  width: 100%; height: 25%;
+}
+.vert-spacer-custom {
+  width: 100%; height: 2%;
+}
+
+/* Splash */
+/* ............................................................................................. */
+#splash {
+  background: #34AF8B; /* fallback */
+  background-image: url('../img/splash.jpg');
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+#logo {
+  width: 230px;
+  top: @splash-margin-top; left: @splash-margin-left;
+  position: absolute;
+}
+#tagline {
+  height: 100%;
+  margin: -110px 0 0 0;
+  display: inline-block; padding: 0 @splash-margin-left;
+  position: relative;
+  text-align: justify;
+  font-size: 76px;
+	font-family: 'Gotham Thin';
+  letter-spacing: 0;
+  line-height: 110px;
+}
+#lostitem {
+  letter-spacing: 0;
+}
+#jointhekode {
+//  margin-left: @splash-margin-left;
+  position: absolute;
+}
+#jointhekode>button {
+  margin: 0; padding: 0;
+  display: inline-block;
+  text-align: center; text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: 'Gotham Light'; font-size: 24px;
+  border: 1px solid white;
+  background: none; color: white;
+  cursor: pointer;
+}
+#jointhekode>button>a {
+  width: auto; height: 50px;
+  padding: 0 17px 0 20px; /* -3px to correct for letter-spacing */
+  display: block;
+  text-decoration: none;
+  line-height: 50px;
+  color: inherit;
+}
+#freekodes {
+  margin-left: 20px;
+  display: inline-block;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: 'Gotham Light'; font-size: 24px;
+}
+#kode-user {
+  height: 640px;
+  margin-top: -320px;
+  right: @splash-margin-right;
+  position: absolute;
+
+}
+
+/* Information */
+/* ............................................................................................. */
+.information {
+  background: white; color: black;
+  text-align: center;
+  border-bottom: 1px solid #EEE;
+  clear: both;
+}
+.information>section {
+  clear: both;
+}
+.information>section>.joinnow {
+  top: 100px; right: 70px;
+  position: absolute;
+  letter-spacing: 2px;
+  font-size: 32px;
+	text-decoration: none;
+	color: inherit;
+	img {
+		width: 20px; height: 20px;
+		display: inline-block;
+	}
+}
+.information-left {
+  width: 50%; height: 100%;
+  display: block;
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+.information-right {
+  width: 50%; height: 100%;
+  display: block;
+  position: relative;
+  float: right;
+  overflow: hidden;
+}
+.container-image {
+  width: 100%; height: 100%;
+  bottom: 0;
+  position: relative;
+}
+#image-sticker {
+  height: 360px;
+  margin-top: -160px; // 20px extra offset
+}
+#image-phone {
+  height: 65%;
+  right: 140px; bottom: 0;
+  position: absolute;
+}
+#image-computer {
+  height: 400px;
+  margin-top: -180px; // 20px extra offset
+}
+.blurb {
+  width: 620px !important; // original 490px
+  padding: 0 10px;
+  display: block;
+  vertical-align: middle;
+  text-align: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+	.kode {
+		color: @theme-2;
+	}
+}
+.blurb>h3, .blurb>p {
+  margin: 0 0 22px 0;
+	position: relative;
+	z-index: 999999;
+  display: inline-block;
+  vertical-align: middle;
+}
+.blurb>h3 {
+  font-size: 40px;
+  letter-spacing: 2px;
+	line-height: 56px;
+}
+.blurb>p {
+  font-size: 17px;
+  line-height: 38px;
+}
+.blurb>hr {
+	width: 90px;
+	margin: 10px 0 30px 0;
+	border-style: solid;
+	border: 0 0 0 0;
+	border-bottom: 1px solid black;
+}
+#blurb-sticker {
+  height: 340px;
+  margin: -130px auto 0 auto; // 20px extra offset
+}
+#blurb-phone {
+  height: 430px;
+  margin: -165px auto 0 auto; // 20px+30px extra offset
+}
+#blurb-computer {
+  height: 190px;
+  margin: -75px auto 0 auto; // 20px extra offset
+}
+.seemore {
+  width: 100%; height: 100px;
+  margin: 0 auto;
+  bottom: 0;
+  display: block;
+  position: absolute;
+  text-align: center;
+  line-height: 100px;
+}
+.seemore>a {
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.chevron {
+  width: 32px;
+  display: block;
+  opacity: 0.75;
+}
+.fullopacity {
+  opacity: 1;
+}
+
+/* Contact */
+/* ............................................................................................. */
+#contact {
+  height: 880px !important;
+  background: white; color: black;
+  text-align: center;
+}
+#contact>section {
+  width: 480px; height: 520px;
+  margin: -350px auto 0 auto;
+  display: block;
+}
+#contact>section>*, #mc_embed_signup>form>* {
+  margin-bottom: 50px !important;
+}
+#contact>section>h2 {
+	padding: 20px 0;
+  font-size: 38px;
+  letter-spacing: 2px;
+	line-height: 48px;
+}
+#contact>section>img {
+  width: 180px;
+}
+.signup-input, #mc-embedded-subscribe {
+  height: auto; width: 100%;
+  padding: 12px 10px 12px 14px; /* letter-spacing fix */
+  text-align: left;
+  font-family: 'Gotham Light'; font-size: 18px;
+  letter-spacing: 4px;
+	border: 0;
+  border-bottom: 1px solid black;
+  background: none;
+
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+div.mce_inline_error {
+  display: none !important;
+}
+#mc_embed_signup input.mce_inline_error {
+  border-color: @theme-2 !important;
+}
+#mc-embedded-subscribe {
+	width: auto;
+  margin: 0;
+  border: none;
+	font-size: 28px;
+  cursor: pointer;
+}
+.joinnowarrow {
+	width: 20px; height: 20px;
+	display: inline-block;
+}
+#mce-error-response, #mce-error-success {
+  text-transform: uppercase;
+  font-weight: 12px;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+#mce-error-response a, #mce-error-success a {
+}
+
+/* Footer */
+#contact footer {
+  width: 100%; height: 80px;
+  margin: 0; padding: 0;
+  bottom: 0;
+  position: absolute;
+  text-align: right;
+  line-height: 80px;
+  background: black; color: white;
+}
+#contact footer>* {
+  display: inline-block;
+}
+#copyright {
+  margin-left: @footer-margins;
+  left: 0;
+  position: absolute;
+  font-size: 14px; font-weight: 100;
+  color: @theme-2;
+}
+.sm {
+  width: @sm-hw; height: @sm-hw;
+  display: inline-block;
+}
+.sm img {
+  width: 100%; height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+#twitter {
+	  margin-right: 10px;
+}
+#facebook {
+	  margin-right: @footer-margins;
+}
+
+
+/* Media Queries */
+/* ......................................................................... */
+@media only screen and (max-width: 1440px) {
+  #tagline {
+    font-size: 66px;
+    line-height: 98px;
+  }
+  #jointhekode>button, #freekodes {
+    font-size: 22px !important;
+  }
+  .vert-spacer-custom {
+    height: 3%;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  #tagline {
+    font-size: 48px;
+    line-height: 84px;
+  }
+  #jointhekode>button, #freekodes {
+    font-size: 18px !important;
+  }
+  .vert-spacer-custom {
+    height: 4%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+
+}
+@media only screen and (max-width: 960px) {
+
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 640px) {
+
+}
+@media only screen and (max-width: 480px) {
+
+}
