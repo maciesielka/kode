@@ -42,12 +42,19 @@
 @footer-margins:                       30px;
 @sm-hw:                                42px;
 
+.transition-ease {
+	transition-property: all;
+	transition-duration: 0.2s;
+	transition-timing-function: ease;
+}
+
 /* General */
 /* ............................................................................................. */
 html, body {
   width: 100%; height: 100%;
   margin: 0; padding: 0;
   font-family: 'Gotham Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	fill: currentColor;
 }
 .page {
   width: 100%; height: 100%;
@@ -92,6 +99,34 @@ h1, h2, p {
   top: @splash-margin-top; left: @splash-margin-left;
   position: absolute;
 }
+.nav {
+	top: 100px; right: 70px;
+	position: absolute;
+
+	li {
+		margin-left: 40px;
+		font-size: 18px;
+		letter-spacing: 1px;
+		display: inline-block;
+		a, img {
+			display: inline-block;
+		}
+	}
+	a {
+	color: inherit;
+	text-decoration: none;
+	}
+	.joinnow {
+		letter-spacing: 2px;
+		font-size: 24px;
+		text-decoration: none;
+		color: inherit;
+		img {
+			width: 16px; height: 16px;
+			display: inline-block;
+		}
+	}
+}
 #tagline {
   height: 100%;
   margin: -110px 0 0 0;
@@ -104,7 +139,19 @@ h1, h2, p {
   line-height: 110px;
 }
 #lostitem {
-  letter-spacing: 0;
+  height: 76px; width: 400px;
+	display: inline-block;
+	border-bottom: 1px solid white;
+	vertical-align: text-top;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	img {
+		height: 76px;
+		margin: 0 auto;
+		display: inline-block;
+		vertical-align: text-top;
+	}
 }
 #jointhekode {
 //  margin-left: @splash-margin-left;
@@ -154,15 +201,21 @@ h1, h2, p {
 .information>section {
   clear: both;
 }
+.howitworks {
+	position: absolute;
+	top: 100px; left: 70px;
+	font-size: 40px;
+}
 .information>section>.joinnow {
   top: 100px; right: 70px;
   position: absolute;
   letter-spacing: 2px;
-  font-size: 32px;
+  font-size: 24px;
 	text-decoration: none;
 	color: inherit;
+	z-index: 999;
 	img {
-		width: 20px; height: 20px;
+		width: 16px; height: 16px;
 		display: inline-block;
 	}
 }
@@ -171,7 +224,7 @@ h1, h2, p {
   display: block;
   position: relative;
   float: left;
-  overflow: hidden;
+  overflow: visible;
 }
 .information-right {
   width: 50%; height: 100%;
@@ -191,7 +244,7 @@ h1, h2, p {
 }
 #image-phone {
   height: 65%;
-  right: 140px; bottom: 0;
+  right: 20%; bottom: 0;
   position: absolute;
 }
 #image-computer {
@@ -199,7 +252,7 @@ h1, h2, p {
   margin-top: -180px; // 20px extra offset
 }
 .blurb {
-  width: 620px !important; // original 490px
+  width: 570px !important; // original 490px
   padding: 0 10px;
   display: block;
   vertical-align: middle;
@@ -219,8 +272,8 @@ h1, h2, p {
   vertical-align: middle;
 }
 .blurb>h3 {
-  font-size: 40px;
-  letter-spacing: 2px;
+  font-size: 44px;
+  letter-spacing: 3px;
 	line-height: 56px;
 }
 .blurb>p {
@@ -240,7 +293,7 @@ h1, h2, p {
 }
 #blurb-phone {
   height: 430px;
-  margin: -165px auto 0 auto; // 20px+30px extra offset
+  margin: -130px auto 0 auto; // 20px+30px extra offset
 }
 #blurb-computer {
   height: 190px;
@@ -261,18 +314,22 @@ h1, h2, p {
   vertical-align: middle;
 }
 .chevron {
-  width: 32px;
+  width: 100px;
   display: block;
   opacity: 0.75;
 }
 .fullopacity {
   opacity: 1;
 }
+.appstore {
+	width: 250px;
+	margin-top: 30px;
+}
 
 /* Contact */
 /* ............................................................................................. */
 #contact {
-  height: 880px !important;
+  height: 960px !important;
   background: white; color: black;
   text-align: center;
 }
@@ -332,6 +389,75 @@ div.mce_inline_error {
 }
 
 #mce-error-response a, #mce-error-success a {
+}
+
+/* Team */
+#information-team {
+	overflow: hidden;
+}
+.pictures {
+	position: absolute;
+	bottom: 0;
+	height: 75%; width: 100%;
+	.picture {
+		width: 25%; height: 100%;
+		position: relative;
+		float: left;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-blend-mode: multiply;
+		color: white;
+		.person {
+			width: 100%;
+			position: absolute;
+			bottom: 100px;
+			text-align: center;
+		}
+		.name {
+			font-size: 32px;
+		}
+		.title {
+			margin-top: 8px;
+			font-size: 22px;
+		}
+		color: rgba(0,0,0,0);
+		fill: rgba(0,0,0,0);
+			
+			.transition-ease;
+			&:hover {
+				background-color: rgba(42, 229, 139, 0.5);
+				color: white;
+				fill: white;
+				.transition-ease;
+			}
+		.sm {
+			width: 100%;
+			margin-top: 16px;
+			a {
+				display: inline-block;
+			}
+			svg {
+				width: 24px; height: 24px;
+				margin: 0 8px;
+			}
+		}
+	}
+	#theo {
+		background-image: url(../img/pictures/Theo.jpg);
+	}
+	#marv {
+		background-image: url(../img/pictures/Marv.jpg);
+	}
+	#jon {
+		background-image: url(../img/pictures/Jon.jpg);
+	}
+	#mike {
+		background-image: url(../img/pictures/Mike.jpg);
+	}
+}
+.response {
+	font-size: 12px;
 }
 
 /* Footer */
@@ -396,6 +522,12 @@ div.mce_inline_error {
   .vert-spacer-custom {
     height: 4%;
   }
+	#lostitem {
+		height: 52px;
+		img {
+			height: 42px;
+		}
+	}
 }
 @media only screen and (max-width: 1024px) {
 
