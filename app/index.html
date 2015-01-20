@@ -10,6 +10,7 @@
     <title>Kode</title>
     <link rel="icon" type="image/ico" href="favicon.png"/>
     <link rel="stylesheet" href="css/main.css"/>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>
 </head>
 <body>
     <section id="splash" class="page">
@@ -270,5 +271,16 @@
 				cycle(items, startposition);
 			});
 			    </script>
+			    <script>
+    	(function(){
+			$(document).ready(function(){
+				//generate the address autocomplete form
+				var addressElement = document.getElementById('mce-MMERGE4');
+				var autocomplete = new google.maps.places.Autocomplete(addressElement, {
+					types: ['address']
+				});
+			});
+		})();
+	</script>
 </body>
 </html>
